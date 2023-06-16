@@ -3,13 +3,15 @@ import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import TweetCard from './components/TweetCard/TweetCard';
 import Button from './components/Button/Button';
+import SignUpForm from './components/SignUpForm/SignUpForm';
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/>
       <TweetCard/>
-      <Button/>
+      <Button/> */}
+      <SignUpForm/>
     </div>
   );
 }
