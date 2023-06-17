@@ -1,20 +1,6 @@
 import React from 'react';
 import Form from '../../components/Form/Form';
-
-const inputs = [
-  {
-    id: 'username',
-    name: 'username',
-    type: 'text',
-    placeholder: 'Username',
-  },
-  {
-    id: 'password',
-    name: 'password',
-    type: 'password',
-    placeholder: 'Password',
-  },
-];
+import Data from "./data.json"
 
 const Login = () => {
   return (
@@ -22,7 +8,7 @@ const Login = () => {
       title="Login"
       paragraphText="Don't have an account?"
       paragraphLink="Sign up"
-      inputs={inputs}
+      inputs={Data}
     />
   );
 };
