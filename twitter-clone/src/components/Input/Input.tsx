@@ -6,7 +6,7 @@ export interface InputProps {
   name: string;
   type: string;
   placeholder: string;
-  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   value?: string;
 }
 
@@ -18,6 +18,8 @@ const Input = (props: InputProps) => {
       name={props.name}
       type={props.type}
       placeholder={props.placeholder}
+      onChange={props.onChange}
+      value={props.value}
     />
   );
 };
