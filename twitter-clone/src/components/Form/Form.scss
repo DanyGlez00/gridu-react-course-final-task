@@ -1,6 +1,6 @@
 @import "../../variables.scss";
 
-.login {
+.form {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,26 +20,6 @@
     &-title {
       margin: 0;
       text-align: center;
-    }
-    input,
-    &-button {
-      width: 100%;
-      padding: 10px;
-      border-radius: 5px;
-      box-sizing: border-box;
-    }
-    input {
-      border: 1px solid #ccc;
-      &:focus {
-        outline: none;
-        border-color: #526d82;
-      }
-    }
-    &-button {
-      background-color: $primary-color;
-      color: $white;
-      border: none;
-      cursor: pointer;
     }
   }
   &-existing-acc {
